@@ -15,6 +15,10 @@
                 <source>Children elements</source>
                 <target>Éléments enfants</target>
             </trans-unit>
+            <trans-unit id="children_elements_description">
+                <source>Manage child elements directly in the container</source>
+                <target>Gérer les éléments enfants directement dans le conteneur</target>
+            </trans-unit>
             <trans-unit id="add_new_element">
                 <source>Add new element</source>
                 <target>Ajouter un nouvel élément</target>

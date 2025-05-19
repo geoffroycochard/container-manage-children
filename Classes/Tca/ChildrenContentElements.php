@@ -26,16 +26,8 @@ class ChildrenContentElements
     {
         // Récupérer tous les types de contenu disponibles
         $contentTypes = $GLOBALS['TCA']['tt_content']['columns']['CType']['config']['items'] ?? [];
-        
-        // Filtrer les types de contenu pour n'inclure que ceux qui sont pertinents
-        $allowedTypes = [];
-        foreach ($contentTypes as $type) {
-            if (isset($type[1]) && !in_array($type[1], ['div', 'html', 'menu'])) {
-                $allowedTypes[] = $type;
-            }
-        }
-        
-        $parameters['items'] = $allowedTypes;
+        $parameters['items'] = $contentTypes;
+
     }
 
     public function allowedColPosContainer(array &$parameters): void

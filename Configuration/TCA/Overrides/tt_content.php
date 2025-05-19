@@ -49,18 +49,29 @@ use Letsweb\ContainerManageChildren\Tca\ChildrenContentElements;
             ],
         ],
     ],
-); 
+);
 
- // Configure the default backend fields for the content element
- $GLOBALS['TCA']['tt_content']['palettes']['container_children'] = [
-    'label' => 'Children elements',
-    'description' => 'Children elements management',
+// Configure the default backend fields for the content element
+$GLOBALS['TCA']['tt_content']['palettes']['container_children'] = [
+    'label' => 'LLL:EXT:container_manage_children/Resources/Private/Language/locallang.xlf:children_elements',
+    'description' => 'LLL:EXT:container_manage_children/Resources/Private/Language/locallang.xlf:children_elements_description',
     'showitem' => 'container_children'
- ];
- 
- ExtensionManagementUtility::addToAllTCAtypes(
-     'tt_content',
-     '--palette--;Children elements;container_children',
-     '',
-     'after:header'
- );
+];
+
+// Récupérer tous les types de conteneurs b13
+$containerTypes = [];
+if (isset($GLOBALS['TCA']['tt_content']['containerConfiguration'])) {
+    foreach ($GLOBALS['TCA']['tt_content']['containerConfiguration'] as $cType => $configuration) {
+        $containerTypes[] = $cType;
+    }
+}
+
+// Ajouter la palette uniquement aux types de conteneurs b13
+if (!empty($containerTypes)) {
+    ExtensionManagementUtility::addToAllTCAtypes(
+        'tt_content',
+        '--palette--;LLL:EXT:container_manage_children/Resources/Private/Language/locallang.xlf:children_elements;container_children',
+        implode(',', $containerTypes),
+        'after:header'
+    );
+}
