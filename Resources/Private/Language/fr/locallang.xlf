@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" target-language="fr" datatype="plaintext" original="messages" date="2024-03-19T12:00:00Z" product-name="container_manage_children">
+        <header/>
+        <body>
+            <trans-unit id="title">
+                <source>Container Manage Children</source>
+                <target>Gestion des éléments enfants des conteneurs</target>
+            </trans-unit>
+            <trans-unit id="description">
+                <source>Extension to manage child elements directly in the container edit interface</source>
+                <target>Extension pour gérer les éléments enfants directement dans l'interface d'édition des conteneurs</target>
+            </trans-unit>
+            <trans-unit id="children_elements">
+                <source>Children elements</source>
+                <target>Éléments enfants</target>
+            </trans-unit>
+            <trans-unit id="add_new_element">
+                <source>Add new element</source>
+                <target>Ajouter un nouvel élément</target>
+            </trans-unit>
+            <trans-unit id="edit_element">
+                <source>Edit element</source>
+                <target>Modifier l'élément</target>
+            </trans-unit>
+            <trans-unit id="delete_element">
+                <source>Delete element</source>
+                <target>Supprimer l'élément</target>
+            </trans-unit>
+            <trans-unit id="move_element">
+                <source>Move element</source>
+                <target>Déplacer l'élément</target>
+            </trans-unit>
+            <trans-unit id="element_type">
+                <source>Element type</source>
+                <target>Type d'élément</target>
+            </trans-unit>
+            <trans-unit id="element_position">
+                <source>Element position</source>
+                <target>Position de l'élément</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff> 

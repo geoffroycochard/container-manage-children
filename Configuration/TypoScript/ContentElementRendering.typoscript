@@ -1,0 +1,24 @@
+lib.tx_news.contentElementRendering = CONTENT
+lib.tx_news.contentElementRendering {
+    table = tt_content
+    select {
+        pidInList = 0
+        uidInList.current = 1
+        where = {#tx_container_parent}<1
+        orderBy = sorting
+        languageField = sys_language_uid
+    }
+}
+
+# Configuration pour le rendu des éléments de contenu dans les conteneurs
+lib.tx_container.contentElementRendering = CONTENT
+lib.tx_container.contentElementRendering {
+    table = tt_content
+    select {
+        pidInList = 0
+        uidInList.current = 1
+        where = {#tx_container_parent}>0
+        orderBy = sorting
+        languageField = sys_language_uid
+    }
+} 

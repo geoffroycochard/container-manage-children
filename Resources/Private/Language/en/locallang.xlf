@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" target-language="en" datatype="plaintext" original="messages" date="2024-03-19T12:00:00Z" product-name="container_manage_children">
+        <header/>
+        <body>
+            <trans-unit id="title">
+                <source>Container Manage Children</source>
+                <target>Container Manage Children</target>
+            </trans-unit>
+            <trans-unit id="description">
+                <source>Extension to manage child elements directly in the container edit interface</source>
+                <target>Extension to manage child elements directly in the container edit interface</target>
+            </trans-unit>
+            <trans-unit id="children_elements">
+                <source>Children elements</source>
+                <target>Children elements</target>
+            </trans-unit>
+            <trans-unit id="add_new_element">
+                <source>Add new element</source>
+                <target>Add new element</target>
+            </trans-unit>
+            <trans-unit id="edit_element">
+                <source>Edit element</source>
+                <target>Edit element</target>
+            </trans-unit>
+            <trans-unit id="delete_element">
+                <source>Delete element</source>
+                <target>Delete element</target>
+            </trans-unit>
+            <trans-unit id="move_element">
+                <source>Move element</source>
+                <target>Move element</target>
+            </trans-unit>
+            <trans-unit id="element_type">
+                <source>Element type</source>
+                <target>Element type</target>
+            </trans-unit>
+            <trans-unit id="element_position">
+                <source>Element position</source>
+                <target>Element position</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff> 
