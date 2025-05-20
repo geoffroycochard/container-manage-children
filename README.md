@@ -1,13 +1,12 @@
 # Container Manage Children
 
-Une extension TYPO3 qui permet de gérer les éléments enfants directement dans l'interface d'édition des conteneurs b13/container.
+Une extension TYPO3 qui permet de gérer les éléments enfants directement dans l'interface d'édition des conteneurs b13/container via un type `inline`.
 
 ## Fonctionnalités
 
 - Gestion des éléments enfants directement dans l'interface d'édition des conteneurs
 - Support multilingue (FR/EN)
 - Compatible avec tous les types de conteneurs b13/container
-- Interface utilisateur intuitive
 - Support du glisser-déposer pour réorganiser les éléments
 - Gestion des traductions des éléments enfants
 
@@ -23,12 +22,6 @@ Une extension TYPO3 qui permet de gérer les éléments enfants directement dans
 ```bash
 composer require letsweb/container-manage-children
 ```
-
-### Installation manuelle
-
-1. Téléchargez l'extension depuis le dépôt
-2. Placez le dossier dans `typo3conf/ext/`
-3. Activez l'extension dans le gestionnaire d'extensions TYPO3
 
 ## Configuration
 
@@ -56,17 +49,15 @@ La configuration TCA est automatiquement chargée. Le champ `container_children`
 L'extension est disponible en :
 - Français
 - Anglais
-
-Pour ajouter une nouvelle langue :
-1. Créez un nouveau dossier dans `Resources/Private/Language/`
-2. Copiez le fichier `locallang.xlf` et traduisez-le
-
+- 
 ## Contribution
 
 Les contributions sont les bienvenues ! N'hésitez pas à :
 - Signaler des bugs
 - Proposer des améliorations
 - Soumettre des pull requests
+  
+https://github.com/geoffroycochard/container-manage-children
 
 ## Licence
 
@@ -75,8 +66,7 @@ Cette extension est publiée sous licence GPL-2.0-or-later.
 ## Auteur
 
 - Letsweb
-- Site web : https://www.letsweb.fr
-- Email : contact@letsweb.fr
+- Site web : https://github.com/geoffroycochard/container-manage-children
 
 ## Remerciements
 
