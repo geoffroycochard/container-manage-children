@@ -81,7 +81,7 @@ Pour toute question ou problème :
 
 ## Changelog
 
-### Version 1.0.0 (2024-03-19)
+### Version 0.1 (2025-05-20)
 - Version initiale
 - Support des conteneurs b13
 - Interface multilingue (FR/EN)
