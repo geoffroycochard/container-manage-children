@@ -1,0 +1,6 @@
+services:
+  Letsweb\ContainerManageChildren\EventListener\AfterTcaCompilationEventListener:
+    tags:
+      - name: event.listener
+        identifier: 'container-manage-children/after-tca-compilation'
+        event: TYPO3\CMS\Core\Configuration\Event\AfterTcaCompilationEvent 
